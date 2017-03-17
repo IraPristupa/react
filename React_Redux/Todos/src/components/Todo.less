@@ -1,0 +1,48 @@
+.root {
+    padding: 16px 60px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+
+    &:before {
+        border: 2px solid #ccc;
+        border-radius: 50%;
+        content: '';
+        cursor: pointer;
+        bottom: 16px;
+        left: 16px;
+        position: absolute;
+        width: 18px;
+        height: 18px
+    }
+}
+
+.completed {
+    composes: root;
+
+    text-decoration: line-through;
+    font-style: italic;
+    color: lightgrey;
+
+    &:before {
+        content: '\002713';
+        color: #fff;
+        background-color: #78db59;
+        border-color: #78db59;
+        font-size: 18px;
+    }
+}
+
+.delete {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    bottom: 0;
+    top: 14px;
+    right: 16px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #646464;
+    font-weight: 500;
+    text-shadow: 1px 1px 1px #646464;
+}
