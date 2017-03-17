@@ -1,0 +1,11 @@
+.counter-list {
+    margin: 0 auto;
+    width: 300px;
+    text-align: center;
+}
+
+.add-button {
+    width: 120px;
+    font-size: 13px;
+    margin-top: 10px;
+}

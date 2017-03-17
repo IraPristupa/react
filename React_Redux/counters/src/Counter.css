@@ -1,0 +1,11 @@
+.counter {
+    padding: 10px 0;
+}
+
+.counter-value {
+    padding: 0 15px;
+}
+
+.counter-button {
+    width: 40px;
+}

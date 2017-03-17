@@ -1,0 +1,25 @@
+.app {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+
+  h1 {
+    color: rgb(0, 188, 212);
+  }
+}
+
+.app-budget {
+  background-color: rgb(0, 188, 212);
+  padding: 10px 0;
+
+  span {
+    padding: 0 20px;
+    font-size: 28px;
+    line-height: 28px;
+    display: inline-block;
+    vertical-align: middle;
+    color: #fff;
+  }
+}
+

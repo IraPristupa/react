@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Galada', cursive;
+}
+
+input {
+    width: 100%;
+    font-size: 16px;
+    line-height: 36px;
+    border: 1px solid #bbb;
+    outline: none;
+    padding-left: 40px;
+}
+
+.page-wrapper {
+    width: 480px;
+    margin: 0 auto;
+}
+
+.page-title {
+    color: #426bf4;
+    text-align: center;
+}
+
+.search {
+    position: relative;
+    margin-bottom: 35px;
+}
+
+.search-icon {
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    font-size: 20px;
+    color: #aaa;
+}
+
+.student {
+    width: 100%;
+    border: 1px solid #aaa;
+    padding: 20px;
+    overflow: hidden;
+    margin-bottom: -1px;
+}
+
+.student-avatar {
+    width: 110px;
+    border-radius: 6px;
+    float: left;
+}
+
+.student-body {
+    float: left;
+    padding-left: 30px;
+}
+
+.student-name {
+    margin: 0;
+}
+
+.student-location {
+    padding-bottom: 10px;
+}
+
+.social-box {
+    width: 28px;
+    height: 28px;
+    background-color: #ccc;
+    border-radius: 4px;
+    display: inline-block;
+    margin-right: 16px;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.social-box:hover {
+    background-color: #aaa;
+}
+
+.location-icon {
+    color: #4aad39;
+    font-size: 26px;
+    padding-right: 10px;
+}
+
+.social-icon {
+    font-size: 18px;
+    line-height: 28px;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.social-icon:hover {
+    color: #eee;
+}
+
+.social-link {
+    display: block;
+}

@@ -1,0 +1,48 @@
+.root {
+    padding: 0 20px 24px;
+    margin-bottom: 16px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.12), 0 6px 6px rgba(0,0,0,0.18);
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+
+    &:hover {
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    }
+
+    span {
+        color: #777;
+    }
+}
+
+.mark {
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    bottom: 0;
+    top: 14px;
+    right: 26px;
+    cursor: pointer;
+    font-size: 26px;
+    color: #646464;
+}
+
+.marked {
+    color: #FF9900;
+}
+
+.button {
+    height: 32px;
+    width: 120px;
+    background-color: #ff3300;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    right: 22px;
+    bottom: 16px;
+}
