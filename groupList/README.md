@@ -6,6 +6,6 @@
  - город,
  - контакты со ссылками на страницы facebook, github, email. 
  
- ![groupList](../_assets/groupList.png)
- 
+ ![students](../_assets/students.png)
+ ![filteredStudents](../_assets/filteredStudents.png)
  
